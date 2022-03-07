@@ -1,1 +1,38 @@
 @charset "utf-8";
+
+/* headerここから */
+header{
+    height: 60px;   
+}
+header h1{
+    float: left;
+}
+.menu-list li{
+    float: right;
+    list-style: none;
+}
+/* headerここまで */
+
+/* mainvisual-wrapperここから */
+.mainvisual-wrapper{
+    /*  */
+}
+/* mainvisual-wrapperここまで */
+
+/* about-wrapperここから */
+.about-wrapper{
+    /*  */
+}
+/* about-wrapperここまで */
+
+/* bicycle-wrapperここから */
+.bicycle-wrapper{
+    /*  */
+}
+/* bicycle-wrapperここまで */
+
+/* footerここから */
+footer{
+    /*  */
+}
+/* footerここまで */
