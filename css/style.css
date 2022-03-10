@@ -37,7 +37,16 @@ li{
 
 /* about-wrapperここから */
 .about-wrapper{
-    
+    text-align: center;
+}
+.about-wrapper h2{
+    display: inline-block;
+    width: 92px;
+    color: #383E45;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 1px solid #383E45;
+    margin-top: 80px;
 }
 /* about-wrapperここまで */
 
