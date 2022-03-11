@@ -48,11 +48,63 @@ li{
     border-bottom: 1px solid #383E45;
     margin-top: 80px;
 }
+.about-wrapper .container{
+    height: 300px;
+    position: relative;
+}
+.about-contents{
+    text-align: initial;
+}
+.about-contents img{
+    position: absolute;
+    top: 182px;
+    left: 147px;
+}
+.about-contents h3{
+    position: absolute;
+    top: 186px;
+    left: 277px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #383E45;
+}
+.about-contents p{
+    position: absolute;
+    top: 213px;
+    left: 277px;
+    font-size: 14.4px;
+    font-weight: normal;
+    color: #383E45;
+}
 /* about-wrapperここまで */
 
 /* bicycle-wrapperここから */
 .bicycle-wrapper{
-    /*  */
+    text-align: center;
+}
+.bicycle-wrapper h2{
+    display: inline-block;
+    width: 112px;
+    color: #383E45;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 1px solid #383E45;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.bicycle-contents{
+    display: flex;
+    justify-content: space-between;
+}
+.bicycle-contents h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: #383E45;
+}
+.bicycle-contents p{
+    font-size: 14.4px;
+    font-weight: normal;
+    color: #383E45;
 }
 /* bicycle-wrapperここまで */
 
