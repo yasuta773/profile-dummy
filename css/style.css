@@ -3,7 +3,8 @@
 /* 共通ここから */
 .container{
     margin: 0 auto;
-    width: 820px;
+    max-width: 820px;
+    width: 100%;
 }
 /* 共通ここまで */
 
@@ -79,8 +80,9 @@ li{
 /* about-wrapperここまで */
 
 /* bicycle-wrapperここから */
-.bicycle-wrapper{
+.bicycle-wrapper .container{
     text-align: center;
+    height: 420px;
 }
 .bicycle-wrapper h2{
     display: inline-block;
@@ -109,7 +111,19 @@ li{
 /* bicycle-wrapperここまで */
 
 /* footerここから */
-footer{
-    /*  */
+footer .container{
+    text-align: center;
+}
+footer p{
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 110px;
+    color: #383E45;
 }
 /* footerここまで */
+
+/* media queriesここから */
+@media all and (max-width: 750px){
+
+}
+/* media queriesここまで */
