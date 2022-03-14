@@ -11,14 +11,17 @@
 
 /* headerここから */
 header{
-    padding: 10px 0px;
+    
 }
 header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+header h1{
+    height: 40px;
+    padding: 0px 15px;
+}
 .menu-list {
     display: flex;
     list-style: none;
@@ -40,7 +43,7 @@ li{
 
 /* about-wrapperここから */
 .about-wrapper .container{
-    width: 540px;
+    max-width: 540px;
 }
 .about-wrapper h2{
     display: inline-block;
@@ -76,9 +79,9 @@ li{
 /* bicycle-wrapperここから */
 .bicycle-wrapper h2{
     display: inline-block;
-    width: 112px;
+    width: 120px;
     color: #383E45;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
     border-bottom: 1px solid #383E45;
     margin-top: 90px;
@@ -110,10 +113,31 @@ footer p{
 /* footerここまで */
 
 /* media queriesここから */
-@media all and (max-width: 750px){
-.about-wrapper img{
-    position: initial;
+@media screen and (max-width: 750px){
+.mainvisual-wrapper{
+    background-image: url(../images/mainvisual2.png);
+    background-position: bottom;
+}
+.about-contents{
+    flex-direction: column;
+}
+.about-contents .images{
     text-align: center;
+    margin-right: 0px;
+}
+.text{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.bicycle-contents{
+    flex-direction: column;
+}
+.bicycle{
+    margin: 0 15px 30px 15px;
+}
+.bicycle img{
+    width: 100%;
+    height: 100%;
 }
 }
 /* media queriesここまで */
