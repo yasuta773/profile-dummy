@@ -7,12 +7,18 @@
     width: 100%;
     text-align: center;
 }
+h2{
+    color: #383E45;
+    font-size: 30px;
+    font-weight: bold;
+}
+h2 span{
+    display: inline-block;
+    border-bottom: 2px solid #383E45;
+}
 /* 共通ここまで */
 
 /* headerここから */
-header{
-    
-}
 header .container{
     display: flex;
     justify-content: space-between;
@@ -20,15 +26,21 @@ header .container{
 }
 header h1{
     height: 40px;
-    padding: 0px 15px;
 }
 .menu-list {
     display: flex;
     list-style: none;
 }
-li{
+.menu-list li{
     font-size: 14.4px;
-    padding: 22px 15px;
+    padding: 20px 0px;
+}
+.menu-list a{
+    text-decoration: none;
+    color: #24292E;
+}
+.menu-list .about{
+    padding-right: 20px;
 }
 /* headerここまで */
 
@@ -44,28 +56,22 @@ li{
 /* about-wrapperここから */
 .about-wrapper .container{
     max-width: 540px;
-}
-.about-wrapper h2{
-    display: inline-block;
-    width: 105px;
-    color: #383E45;
-    font-size: 32px;
-    font-weight: bold;
-    border-bottom: 1px solid #383E45;
-    margin-top: 80px;
+    margin-top: 75px;
 }
 .about-contents{
     text-align: initial;
     display: flex;
     flex-direction: row;
-    margin-top: 70px;
+    margin-top: 60px;
+    
 }
 .about-contents .images{
-    margin-right: 30px;
+    margin-left: 8px;
+    margin-right: 29px;
 }
 
 .about-contents h3{
-    font-size: 16px;
+    font-size: 14.4px;
     font-weight: bold;
     color: #383E45;
 }
@@ -73,21 +79,16 @@ li{
     font-size: 14.4px;
     font-weight: normal;
     color: #383E45;
+    line-height: 27px;
 }
 /* about-wrapperここまで */
 
 /* bicycle-wrapperここから */
-.bicycle-wrapper h2{
-    display: inline-block;
-    width: 120px;
-    color: #383E45;
-    font-size: 32px;
-    font-weight: bold;
-    border-bottom: 1px solid #383E45;
-    margin-top: 90px;
-    margin-bottom: 60px;
+.bicycle-wrapper .container{
+    margin-top: 85px;
 }
 .bicycle-contents{
+    margin-top: 55px;
     display: flex;
     justify-content: space-between;
 }
