@@ -116,20 +116,40 @@ footer p{
 
 /* media queriesここから */
 @media screen and (max-width: 750px){
+header .container{
+    height: 60px;
+}
+header h1{
+    padding-left: 15px;
+}
+.menu-list{
+    height: 60px;
+}
+.menu-list .about{
+    padding-right: 15px;
+}
 .mainvisual-wrapper{
     background-image: url(../images/mainvisual2.png);
     background-position: bottom;
 }
 .about-contents{
     flex-direction: column;
+    margin-top: 55px;
 }
 .about-contents .images{
     text-align: center;
-    margin-right: 0px;
+    margin: 0;
 }
 .text{
     margin-left: 15px;
     margin-right: 15px;
+}
+.text p{
+    margin-top: 4px;
+    line-height: 23px;
+}
+.bicycle-wrapper .container{
+    margin-top: 93px;
 }
 .bicycle-contents{
     flex-direction: column;
